@@ -1,0 +1,2 @@
+# registry
+Cloud Eureka Registry
