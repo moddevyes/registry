@@ -1,2 +1,3 @@
-# registry
-Cloud Eureka Registry
+# Registry
+
+* start with gradle clean build bootRun
