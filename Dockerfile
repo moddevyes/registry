@@ -1,10 +1,9 @@
 FROM eclipse-temurin:17-jdk-alpine
-VOLUME /tmp
+WORKDIR /opt/commerceapps
 EXPOSE 8761
 ARG JAR_FILE=build/libs/registry-0.0.1.jar
-ARG JAR_FILE
 COPY ${JAR_FILE} registry-0.0.1.jar
-ENTRYPOINT ["java","-jar","/registry-0.0.1.jar"]
+ENTRYPOINT ["java","-jar","registry-0.0.1.jar"]
 
 
 # BUILD
