@@ -1,6 +1,6 @@
 server:
   application:
-    name: registry
+    name: commerce-registry-service
   port: 8761
 
 eureka:
